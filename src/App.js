@@ -50,7 +50,7 @@ return(
       <div className="App-main">
         <form onSubmit={finalSearch}>
           <input className="input-search" onChange={myRecipeSearch} value={mySearch}/>
-          <button onClick={finalSearch}>Search</button>
+          <button>Search</button>
         </form>
       </div>
       
